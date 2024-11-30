@@ -1,0 +1,55 @@
+import { User } from "../types/user-type";
+
+export const usersMock: User[] = [
+    {
+        id: '1',
+        avatar: 'img/1.jpg',
+        dateOfBirth: '25-10-1978',
+        department: 'Маркетинговый отдел',
+        email: 'jonh@mail.ru',
+        gender: 'Мужчина',
+        level: 'Junior',
+        name: 'Иван Иванов',
+        phone: '+7-931-123-42-13',
+        position: 'Стажер',
+        section: [{
+            idSection: '1',
+            title: 'Родственник',
+        }],
+        workFormat: 'Гибрид',
+    },
+    {
+        id: '2',
+        avatar: 'img/2.jpg',
+        dateOfBirth: '25-10-1990',
+        department: 'Маркетинговый отдел',
+        email: 'jonh@mail.ru',
+        gender: 'Мужчина',
+        level: 'Junior',
+        name: 'Иван Иванов',
+        phone: '+7-931-123-42-13',
+        position: 'Стажер',
+        section: [{
+            idSection: '1',
+            title: 'Родственник',
+        }],
+        workFormat: 'Гибрид',
+    },
+    {
+        id: '3',
+        avatar: 'img/3.jpg',
+        dateOfBirth: '25-10-1998',
+        department: 'Маркетинговый отдел',
+        email: 'jonh@mail.ru',
+        gender: 'Мужчина',
+        level: 'Junior',
+        name: 'Иван Иванов',
+        phone: '+7-931-123-42-13',
+        position: 'Стажер',
+        section: [{
+            idSection: '1',
+            title: 'Родственник',
+        }],
+        workFormat: 'Гибрид',
+    },
+]
